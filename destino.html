@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Explore opções de viagem com a Fontana Turismo e encontre inspiração para seu próximo destino."
+    />
+    <title>Destinos | Fontana Turismo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg" aria-label="Navegação principal">
+        <div class="container">
+          <a class="navbar-brand brand" href="index.html" aria-label="Fontana Turismo, início">
+            <img class="brand-logo" src="imagens/OIP.webp" alt="" />
+            fontana<span>turismo</span>
+          </a>
+          <a class="destination-back ms-auto" href="index.html#destinos">Voltar ao catálogo</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="destination-not-found" id="destinationNotFound">
+        <div class="container">
+          <h1>Destino não encontrado</h1>
+          <p>Escolha uma das opções do nosso catálogo para conhecer mais.</p>
+          <a class="btn btn-primary hero-button" href="index.html#destinos">Ver catálogo</a>
+        </div>
+      </div>
+
+      <div id="destinationContent" hidden>
+        <section class="destination-hero">
+          <div class="container">
+            <p class="eyebrow"><span class="eyebrow-dot"></span><span id="destinationKicker"></span></p>
+            <h1 id="destinationTitle"></h1>
+            <p class="destination-intro" id="destinationIntro"></p>
+            <div class="destination-actions">
+              <a class="btn btn-primary hero-button" id="destinationBookingLink" href="index.html#agendar">
+                Planejar minha viagem <span aria-hidden="true">↗</span>
+              </a>
+              <a class="destination-back" href="index.html#destinos">← Voltar ao catálogo</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-space">
+          <div class="container">
+            <div class="destination-section-heading">
+              <p class="section-kicker">IDEIAS PARA SUA VIAGEM</p>
+              <h2>O que você pode descobrir</h2>
+            </div>
+            <div class="row g-4 align-items-stretch">
+              <div class="col-lg-5">
+                <div class="destination-highlights" id="destinationHighlights"></div>
+              </div>
+              <div class="col-lg-7">
+                <p class="section-kicker">LUGARES PARA SE INSPIRAR</p>
+                <div class="row g-3" id="destinationPlaces"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="booking-section section-space">
+          <div class="container d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-4">
+            <div>
+              <p class="section-kicker">SUA PRÓXIMA HISTÓRIA COMEÇA AQUI</p>
+              <h2 class="mb-2">Vamos planejar essa viagem?</h2>
+              <p class="mb-0 text-secondary">Conte com a Fontana Turismo para organizar os detalhes do seu próximo destino.</p>
+            </div>
+            <a class="btn btn-primary hero-button flex-shrink-0" id="destinationCtaLink" href="index.html#agendar">
+              Falar com a equipe <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container d-flex flex-column flex-sm-row justify-content-between align-items-sm-center gap-2">
+        <a class="navbar-brand brand footer-brand" href="index.html">
+          <img class="brand-logo" src="imagens/OIP.webp" alt="" />
+          fontana<span>turismo</span>
+        </a>
+        <p>Boas viagens começam com bons planos. © 2026 Fontana Turismo</p>
+      </div>
+    </footer>
+
+    <script src="js/destino.js"></script>
+  </body>
+</html>

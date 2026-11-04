@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Escolha seu próximo destino com a Fontana Turismo. Agende uma visita ou peça para nossa equipe entrar em contato."
+    />
+    <title>Fontana Turismo | Sua próxima viagem começa aqui</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg" aria-label="Navegação principal">
+        <div class="container">
+          <a
+            class="navbar-brand brand"
+            href="#inicio"
+            aria-label="Fontana Turismo, início"
+          >
+            <img class="brand-logo" src="imagens/OIP.webp" alt="" />
+            fontana<span>turismo</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavigation"
+            aria-controls="mainNavigation"
+            aria-expanded="false"
+            aria-label="Abrir menu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNavigation">
+            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+              <li class="nav-item"><a class="nav-link" href="#destinos">Destinos</a></li>
+              <li class="nav-item"><a class="nav-link" href="#agendar">Planeje sua viagem</a></li>
+              <li class="nav-item">
+                <a class="nav-link nav-cta" href="#meus-agendamentos">Minhas solicitações</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section" id="inicio">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-7 hero-copy">
+              <p class="eyebrow"><span class="eyebrow-dot"></span> O mundo te espera</p>
+              <h1>Sua próxima história começa com <span>uma viagem.</span></h1>
+              <p class="hero-description">
+                Escolha um destino e conte com a Fontana Turismo para planejar cada detalhe.
+                Agende uma visita à nossa loja ou deixe seu telefone que a gente liga para você.
+              </p>
+              <a class="btn btn-primary hero-button" href="#agendar">
+                Planejar minha viagem <span aria-hidden="true">↗</span>
+              </a>
+              <div class="hero-note">
+                <span class="note-icon" aria-hidden="true">✓</span>
+                Atendimento próximo, do seu jeito
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="hero-card">
+                <div class="hero-card-top">
+                  <span class="hero-card-label">Seu próximo embarque</span>
+                  <span class="sun-icon" aria-hidden="true">✳</span>
+                </div>
+                <div class="calendar-art" aria-hidden="true">
+                  <div class="calendar-heading">
+                    <span>PRÓXIMA PARADA</span>
+                    <span>✦</span>
+                  </div>
+                  <div class="calendar-date">
+                    <span class="calendar-day">✈</span>
+                    <span class="calendar-month">DESTINO<br /><strong>INCRÍVEL</strong></span>
+                  </div>
+                  <div class="calendar-line"></div>
+                  <div class="calendar-service">
+                    <span class="service-bullet"></span>
+                    Uma viagem feita para você
+                  </div>
+                </div>
+                <p class="hero-card-caption">
+                  Você escolhe o destino.<br />
+                  <strong>A gente cuida do caminho.</strong>
+                </p>
+                <span class="art-spark spark-one" aria-hidden="true">✳</span>
+                <span class="art-spark spark-two" aria-hidden="true">✦</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services-section section-space" id="destinos">
+        <div class="container">
+          <div
+            class="section-heading d-flex flex-column flex-md-row justify-content-between align-items-md-end"
+          >
+            <div>
+              <p class="section-kicker">INSPIRAÇÃO PARA VIAJAR</p>
+              <h2>Qual vai ser a sua próxima parada?</h2>
+            </div>
+            <p class="section-intro">Escolha um destino para começar a planejar com a gente.</p>
+          </div>
+          <div class="row g-3 service-grid">
+            <div class="col-md-6 col-lg-4">
+              <a class="service-card-link" href="destino.html?regiao=brasil">
+                <article class="service-card service-lilac">
+                  <img class="catalog-image" data-image-src="" alt="Paisagem do Brasil" hidden />
+                  <div class="service-icon" aria-hidden="true">☀</div>
+                  <p class="service-number">01 / NACIONAL</p>
+                  <h3>Brasil</h3>
+                  <p>Praias, cidades históricas e paisagens naturais de norte a sul.</p>
+                  <span class="service-link">Explorar o Brasil <span aria-hidden="true">↗</span></span>
+                </article>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <a class="service-card-link" href="destino.html?regiao=americas">
+                <article class="service-card service-peach">
+                  <img class="catalog-image" data-image-src="" alt="Paisagem das Américas" hidden />
+                  <div class="service-icon" aria-hidden="true">◎</div>
+                  <p class="service-number">02 / AMÉRICAS</p>
+                  <h3>América do Sul e do Norte</h3>
+                  <p>Da cultura latino-americana às grandes cidades norte-americanas.</p>
+                  <span class="service-link">Explorar as Américas <span aria-hidden="true">↗</span></span>
+                </article>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <a class="service-card-link" href="destino.html?regiao=africa">
+                <article class="service-card service-green">
+                  <img class="catalog-image" data-image-src="" alt="Paisagem da África" hidden />
+                  <div class="service-icon" aria-hidden="true">◇</div>
+                  <p class="service-number">03 / ÁFRICA</p>
+                  <h3>África</h3>
+                  <p>Safáris, cidades vibrantes e histórias que atravessam gerações.</p>
+                  <span class="service-link">Explorar a África <span aria-hidden="true">↗</span></span>
+                </article>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <a class="service-card-link" href="destino.html?regiao=europa">
+                <article class="service-card service-lilac">
+                  <img class="catalog-image" data-image-src="" alt="Paisagem da Europa" hidden />
+                  <div class="service-icon" aria-hidden="true">⌂</div>
+                  <p class="service-number">04 / EUROPA</p>
+                  <h3>Europa</h3>
+                  <p>Arquitetura, arte e gastronomia em destinos cheios de personalidade.</p>
+                  <span class="service-link">Explorar a Europa <span aria-hidden="true">↗</span></span>
+                </article>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <a class="service-card-link" href="destino.html?regiao=asia">
+                <article class="service-card service-peach">
+                  <img class="catalog-image" data-image-src="" alt="Paisagem da Ásia" hidden />
+                  <div class="service-icon" aria-hidden="true">✦</div>
+                  <p class="service-number">05 / ÁSIA</p>
+                  <h3>Ásia</h3>
+                  <p>Tradições milenares, metrópoles modernas e sabores surpreendentes.</p>
+                  <span class="service-link">Explorar a Ásia <span aria-hidden="true">↗</span></span>
+                </article>
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <a class="service-card-link" href="destino.html?regiao=cruzeiros">
+                <article class="service-card service-green">
+                  <img class="catalog-image" data-image-src="" alt="Navio de cruzeiro" hidden />
+                  <div class="service-icon" aria-hidden="true">♧</div>
+                  <p class="service-number">06 / PELOS MARES</p>
+                  <h3>Cruzeiros</h3>
+                  <p>Conheça vários lugares em uma só viagem, com conforto a bordo.</p>
+                  <span class="service-link">Explorar cruzeiros <span aria-hidden="true">↗</span></span>
+                </article>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="booking-section section-space" id="agendar">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-5 booking-intro">
+              <p class="section-kicker">VAMOS PLANEJAR?</p>
+              <h2>Do primeiro plano até o embarque.</h2>
+              <p>
+                Conte para a gente o que você está imaginando. Você escolhe como prefere
+                conversar com nossa equipe.
+              </p>
+              <div class="booking-step">
+                <span>1</span>
+                <div>
+                  <strong>Escolha seu destino</strong>
+                  <small>Temos ideias para todos os estilos de viagem.</small>
+                </div>
+              </div>
+              <div class="booking-step">
+                <span>2</span>
+                <div>
+                  <strong>Escolha como falar com a gente</strong>
+                  <small>Agende uma visita ou peça uma ligação.</small>
+                </div>
+              </div>
+              <div class="booking-step">
+                <span>3</span>
+                <div>
+                  <strong>Deixe o resto com a Fontana</strong>
+                  <small>Nossa equipe ajuda você a organizar tudo.</small>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="booking-form-card">
+                <div class="form-card-heading">
+                  <div>
+                    <p class="section-kicker">SUA VIAGEM COMEÇA AQUI</p>
+                    <h3>Vamos conversar sobre sua viagem</h3>
+                  </div>
+                  <span class="form-heading-icon" aria-hidden="true">✳</span>
+                </div>
+                <div
+                  id="formFeedback"
+                  class="feedback-message"
+                  role="status"
+                  aria-live="polite"
+                  hidden
+                ></div>
+                <form id="bookingForm" novalidate>
+                  <div class="row g-3">
+                    <div class="col-12">
+                      <label for="customerName" class="form-label">Seu nome</label>
+                      <input
+                        class="form-control"
+                        id="customerName"
+                        name="customerName"
+                        type="text"
+                        placeholder="Como podemos te chamar?"
+                        autocomplete="name"
+                        required
+                        minlength="2"
+                        maxlength="60"
+                      />
+                      <div class="invalid-feedback">Informe seu nome (pelo menos 2 caracteres).</div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="customerPhone" class="form-label">Telefone com DDD</label>
+                      <input
+                        class="form-control"
+                        id="customerPhone"
+                        name="customerPhone"
+                        type="tel"
+                        placeholder="(00) 00000-0000"
+                        autocomplete="tel"
+                        inputmode="tel"
+                        required
+                      />
+                      <div class="invalid-feedback">Informe um celular válido com DDD.</div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="serviceType" class="form-label">Destino de interesse</label>
+                      <select class="form-select" id="serviceType" name="serviceType" required>
+                        <option value="">Escolha um destino</option>
+                        <option value="brasil">Brasil</option>
+                        <option value="europa">Europa</option>
+                        <option value="americas">América do Sul e do Norte</option>
+                        <option value="asia">Ásia</option>
+                        <option value="africa">África</option>
+                        <option value="cruzeiros">Cruzeiros</option>
+                        <option value="outro">Outro destino</option>
+                      </select>
+                      <div class="invalid-feedback">Escolha um destino de interesse.</div>
+                    </div>
+                    <div class="col-12">
+                      <label for="contactType" class="form-label">Como prefere ser atendido?</label>
+                      <select class="form-select" id="contactType" name="contactType" required>
+                        <option value="store">Quero agendar um horário na loja</option>
+                        <option value="callback">Prefiro que entrem em contato comigo</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6" id="dateField">
+                      <label for="appointmentDate" class="form-label">Data da visita à loja</label>
+                      <input
+                        class="form-control"
+                        id="appointmentDate"
+                        name="appointmentDate"
+                        type="date"
+                        required
+                      />
+                      <div class="invalid-feedback">Escolha uma data a partir de hoje.</div>
+                    </div>
+                    <div class="col-md-6" id="timeField">
+                      <label for="appointmentTime" class="form-label">Horário da visita</label>
+                      <select class="form-select" id="appointmentTime" name="appointmentTime" required>
+                        <option value="">Selecione um horário</option>
+                        <option>09:00</option>
+                        <option>10:30</option>
+                        <option>13:00</option>
+                        <option>14:30</option>
+                        <option>16:00</option>
+                        <option>17:30</option>
+                      </select>
+                      <div class="invalid-feedback">Selecione um horário para sua visita.</div>
+                    </div>
+                    <div class="col-12">
+                      <label for="appointmentDetails" class="form-label">
+                        Conte um pouco sobre a viagem
+                        <span class="optional-label">(opcional)</span>
+                      </label>
+                      <textarea
+                        class="form-control"
+                        id="appointmentDetails"
+                        name="appointmentDetails"
+                        rows="3"
+                        placeholder="Quando pretende viajar? Quantas pessoas vão? Alguma preferência?"
+                        maxlength="180"
+                      ></textarea>
+                    </div>
+                    <div class="col-12 form-submit-row">
+                      <button
+                        class="btn btn-primary submit-button"
+                        type="submit"
+                      >
+                        Enviar solicitação
+                        <span aria-hidden="true">→</span>
+                      </button>
+                      <span class="privacy-note">Demonstração: os dados ficam nesta sessão e não são enviados à agência.</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="appointments-section section-space" id="meus-agendamentos">
+        <div class="container">
+          <div class="appointments-heading">
+            <div>
+              <p class="section-kicker">ACOMPANHE POR AQUI</p>
+              <h2>Minhas solicitações</h2>
+            </div>
+            <span class="appointment-count" id="appointmentCount">0 solicitações</span>
+          </div>
+          <div class="appointments-list" id="appointmentsList" aria-live="polite">
+            <div class="empty-state" id="emptyState">
+              <span class="empty-icon" aria-hidden="true">◷</span>
+              <h3>Sua próxima viagem está mais perto.</h3>
+              <p>As solicitações que você enviar nesta página aparecerão aqui.</p>
+              <a href="#agendar">Planejar minha viagem <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+          <p class="list-note">
+            As solicitações ficam nesta sessão e não representam confirmação de visita,
+            reserva ou compra de viagem.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div
+        class="container d-flex flex-column flex-sm-row justify-content-between align-items-sm-center gap-2"
+      >
+        <a class="navbar-brand brand footer-brand" href="#inicio">
+          <img class="brand-logo" src="imagens/OIP.webp" alt="" />
+          fontana<span>turismo</span>
+        </a>
+        <p>Boas viagens começam com bons planos. © 2026 Fontana Turismo</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
