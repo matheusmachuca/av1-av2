@@ -281,9 +281,13 @@ textarea.form-control { min-height: 86px; resize: vertical; }
 .list-note { margin: 14px 0 0; color: #9a99a5; font-size: .7rem; }
 
 .site-footer { padding: 23px 0; border-top: 1px solid #f0eef2; }
+.footer-content { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); align-items: center; gap: 12px; }
 .footer-brand { font-size: 1rem; }
 .footer-brand .brand-logo { width: 34px; height: 34px; }
-.site-footer p { margin: 0; color: #92919e; font-size: .72rem; }
+.footer-location { text-align: center; }
+.footer-location strong { display: block; color: var(--ink); font-size: .75rem; }
+.footer-location address, .site-footer p { margin: 0; color: #92919e; font-size: .72rem; }
+.footer-copyright { text-align: right; }
 
 @media (max-width: 991.98px) {
   .hero-section { padding: 60px 0 70px; }
@@ -317,7 +321,8 @@ textarea.form-control { min-height: 86px; resize: vertical; }
   .appointments-heading { align-items: flex-start; flex-direction: column; }
   .appointment-card { align-items: flex-start; }
   .appointment-meta { width: 100%; justify-content: space-between; padding-left: 66px; }
-  .site-footer .container { align-items: flex-start !important; }
+  .footer-content { grid-template-columns: 1fr; justify-items: center; text-align: center; }
+  .footer-copyright { text-align: center; }
 }
 
 @media (prefers-reduced-motion: reduce) {
