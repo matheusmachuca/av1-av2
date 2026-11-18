@@ -14,7 +14,7 @@ const destinations = {
     places: [
       { name: "Nordeste", text: "Praias, piscinas naturais e vilarejos para curtir dias de sol.", image: "https://tse3.mm.bing.net/th/id/OIP.6Tv5N3zfuWcMPY0JkdHcXAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" },
       { name: "Rio de Janeiro", text: "Paisagens icônicas, vida cultural e passeios à beira-mar.", image: "https://i.pinimg.com/originals/9f/26/38/9f26388a01cd8cbded803412b038add6.jpg" },
-      { name: "Foz do Iguaçu", text: "Uma viagem para contemplar as famosas Cataratas e a natureza.", image: "https://tse3.mm.bing.net/th/id/OIP.83N1FlE2NBIOZlGbsnlG3wHaEd?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" },
+      { name: "Gramado", text: "Uma viagem para contemplar a cultura europeia no Brasil e uma gastronomia excelente.", image: "https://tse4.mm.bing.net/th/id/OIP.wkcKGSsoxepXChakOkt8BgHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" },
     ],
   },
   americas: {
@@ -33,7 +33,7 @@ const destinations = {
       { name: "Buenos Aires", text: "Arquitetura, cafés, cultura e passeios em clima portenho.", image: "https://tse3.mm.bing.net/th/id/OIP.FJ8PNM1SsWN688EN5ApWHQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" },
       { name: "Santiago e arredores", text: "Uma capital moderna com montanhas e vinícolas por perto.", image: "https://cdn.getyourguide.com/img/location/5cced31b8e609.jpeg/88.jpg" },
       { name: "Orlando", text: "Parques temáticos, compras e diversão para toda a família.", image: "https://th.bing.com/th/id/R.73d0b9ec24bbaa460ff0db91411a0ebe?rik=%2fNFdCEl53cUl3Q&pid=ImgRaw&r=0" },
-      { name: "Nova York", text: "Museus, bairros, espetáculos e atrações para explorar a pé.", image: "https://tse2.mm.bing.net/th/id/OIF.meXIwK8K4RfkgdQoqzrdqA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" },
+      { name: "Nova York", text: "Museus, bairros, espetáculos e atrações para explorar a pé.", image: "https://escolaeducacao.com.br/wp-content/uploads/2019/09/liberty-island-1024x683.jpg" },
     ],
   },
   africa: {
@@ -104,7 +104,7 @@ const destinations = {
       { title: "Opções de duração", text: "Compare roteiros e datas para encontrar a viagem ideal." },
     ],
     places: [
-      { name: "Costa brasileira", text: "Uma opção para aproveitar o litoral e conhecer diferentes cidades.", image: "https://www.blumarturismo.com.br/blog/wp-content/uploads/2023/09/pt_PT_RIO07A0I_landscape_sd_2x.webp" },
+      { name: "Costa brasileira", text: "Uma opção para aproveitar o litoral e conhecer diferentes cidades.", image: "https://www.secturbc.com.br/turismo/uploads/cusnoticiafotos_foto_7935.jpg" },
       { name: "Caribe", text: "Praias, águas claras e escalas em diferentes ilhas.", image: "https://tse1.mm.bing.net/th/id/OIP.rQEyUx4yv9pdfMvAwc6IegHaEK?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" },
       { name: "Mediterrâneo", text: "Cidades históricas, cultura e paisagens costeiras em um só roteiro.", image: "https://jornaldoscruzeiros.com.br/wp-content/uploads/2025/02/Costa-Smeralda.jpg" },
     ],
